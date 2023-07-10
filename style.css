@@ -146,7 +146,7 @@
 }
 /* instagram section */
 #instagram-section{
-    padding: 130px 0px;
+    padding: 100px 0px 130px;
     text-align: center;
 }
 .photos-container{
@@ -166,7 +166,7 @@
     background-size: cover;
     margin-bottom: 130px;
 }
-#subscription-section > input[type=email]{
+#subscription-section > form input[type=email]{
     width: 50%;
     border: none;
     padding: 15px;
@@ -180,8 +180,9 @@
     margin-bottom: 130px;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 50px 0px;
 }
+
 .social-links li{
     list-style: none;
     margin-top: 15px;
