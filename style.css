@@ -6,6 +6,7 @@
 /*  sale-off-section */
 /*  instagram section */
 /*  subscription-section */
+/*  contact-section */
 /*  footer */
 
 /* start of css  */
@@ -165,11 +166,37 @@
     background-size: cover;
     margin-bottom: 130px;
 }
-input[type=email]{
+#subscription-section > input[type=email]{
     width: 50%;
     border: none;
     padding: 15px;
     border-radius: 10px;
+}
+/* contact-section */
+#contact-section{
+    background-color: #E554731A;
+    border-radius: 15px;
+    box-shadow: 7px 7px 14px 10px gray;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.social-links li{
+    list-style: none;
+    margin-top: 15px;
+}
+.contact-form{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 7px 7px 14px 10px gray;
+    padding: 40px 60px;
+    text-align: center;
+}
+.contact-form input,.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
 }
 /* footer */
 footer{
