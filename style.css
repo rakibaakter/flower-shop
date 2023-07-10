@@ -1,8 +1,9 @@
 /*  universal class selector and font import */
 /*  common classes */
 /*  header section */
-/* main section */
-/* feature section */
+/*  main section */
+/*  feature section */
+/*  service section */
 
 /* start of css  */
 /* universal class selector and font import*/
@@ -23,7 +24,7 @@
     font-weight: 400;
     line-height: 30px;
     color: gray;
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 .primary-btn{
     background-color: #E55473;
@@ -106,4 +107,19 @@ main{
 }
 .sky-color img{
     width: 100%;
+}
+/* service section */
+#service-section{
+    background: #2727270D;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+.service-item{
+    margin: 70px 0px 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.service-item img{
+    width: 70px;
 }
