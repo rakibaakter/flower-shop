@@ -1,9 +1,9 @@
 /*  universal class selector and font import */
 /*  common classes */
 /*  header section */
-/*  main section */
 /*  feature section */
 /*  service section */
+/* sale-off-section */
 
 /* start of css  */
 /* universal class selector and font import*/
@@ -33,6 +33,13 @@
     border-radius: 10px;
     border: none;
 }
+.primary-color{
+    color : #E55473; 
+}
+.short-width{
+    width : 80%;
+    margin: auto;
+}
 /* header section */
 #header-section{
     max-height: 80vh;
@@ -60,11 +67,7 @@
     margin-top: 10px;
     width: 100%;
 }
-/* main section */
-main{
-    width : 80%;
-    margin: auto;
-}
+
 /* feature section */
 #feature-section{
     padding: 130px 0px;
@@ -122,4 +125,18 @@ main{
 }
 .service-item img{
     width: 70px;
+}
+/* sale-off-section */
+#sale-off-section{
+    padding: 100px 0px;
+    background: #e94e6f0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+#sale-off-section img{
+    width: 250px;
 }
