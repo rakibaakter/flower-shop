@@ -1,0 +1,59 @@
+/*  universal class selector and font import */
+/*  common classes */
+/*  header section */
+
+/* start of css  */
+/* universal class selector and font import*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* common classes */
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.primary-p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: gray;
+    margin: 30px 0px;
+}
+.primary-btn{
+    background-color: #E55473;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+/* header section */
+#header-section{
+    max-height: 80vh;
+    background-color: #E554731A;
+}
+.header-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-description{
+    width: 45%;
+}
+.head-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-img{
+    height: 80vh;
+    width: 37%;
+}
+.header-img img{
+    margin-top: 10px;
+    width: 100%;
+}
