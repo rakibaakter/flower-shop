@@ -1,6 +1,8 @@
 /*  universal class selector and font import */
 /*  common classes */
 /*  header section */
+/* main section */
+/* feature section */
 
 /* start of css  */
 /* universal class selector and font import*/
@@ -21,7 +23,7 @@
     font-weight: 400;
     line-height: 30px;
     color: gray;
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 .primary-btn{
     background-color: #E55473;
@@ -55,5 +57,53 @@
 }
 .header-img img{
     margin-top: 10px;
+    width: 100%;
+}
+/* main section */
+main{
+    width : 80%;
+    margin: auto;
+}
+/* feature section */
+#feature-section{
+    padding: 130px 0px;
+    text-align: center;
+}
+.feature-collections{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.feature-item{
+    width: 30%;
+    
+}
+.feature-img{
+    height: 450px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.feature-img img{
+    width: 70%;
+}
+.feature-tag{
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pink-color{
+    background: #E554731A;
+}
+.sky-color{
+    background: #0597A026;
+}
+.green-color{
+    background: #477D1126;
+}
+.sky-color img{
     width: 100%;
 }
